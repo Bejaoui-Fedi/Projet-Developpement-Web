@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic des Maladies des Céréales</title>
+    <!-- Lien vers Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien vers la police Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lien vers votre fichier CSS -->
+    <link rel="stylesheet" href="Plante.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h4">Diagnostic des Maladies des Céréales</h1>
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">NotreSite</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#info" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Informations
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#apropos-plantes">À propos des plantes</a>
+                                    <a class="dropdown-item" href="#importance-plante-saine">L'Importance d'une Plante Saine</a>
+                                    <a class="dropdown-item" href="#galerie">Galerie</a>
+                                    <a class="dropdown-item" href="#statistique">Statistique</a>
+                                    <a class="dropdown-item" href="#faq">Questions Fréquentes</a>
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="qui-nous-sommes.html">Qui Sommes Nous</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="questionnaire.html">Questionnaire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Carrousel -->
+<section id="slider">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000"> <!-- 1000 ms = 1 secondes -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images.0/20220322_115659_edited.jpg" class="d-block w-100" alt="Blé">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="display-4 fw-bold text-white">Bienvenue sur <br> La Clinique Des Plantes</h1>
+                    <p class="lead text-white">
+                        Découvrez des conseils pratiques pour diagnostiquer et soigner vos plantes.
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images.0/20220322_120129_edited.jpg" class="d-block w-100" alt="Orge">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="display-4 fw-bold text-white">Diagnostic Précis</h1>
+                    <p class="lead text-white">
+                        Identifiez rapidement les maladies pour protéger vos récoltes.
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images.0/20220322_120131_edited.jpg" class="d-block w-100" alt="Avoine">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="display-4 fw-bold text-white">Solutions Simples</h1>
+                    <p class="lead text-white">
+                        Obtenez des astuces efficaces pour prendre soin de vos cultures.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Boutons de contrôle -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+        </button>
+    </div>
+</section>
+
+
+    <!-- À propos des plantes -->
+    <section  id="apropos-plantes" class="py-5">
+        <div class="container">
+            <h2 class="text-center">À propos des plantes</h2>
+            <p class="text-muted text-center">Découvrez des informations essentielles sur les céréales et leurs maladies.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xIgmbfQ5auk?si=_LqiObiRCdgYSQnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h4 class="mt-2">Blé</h4>
+                    <p>Le blé est sujet à diverses maladies qui impactent la qualité des récoltes.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UdwaQ72tuFo?si=oT-boQDk7twrdAiz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h4 class="mt-2">Orge</h4>
+                    <p>L'orge peut être touchée par des maladies fongiques graves comme le charbon.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/y7iWYflH8zk?si=rNQg8qraQRrAiBzn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h4 class="mt-2">Avoine</h4>
+                    <p>Un diagnostic rapide est essentiel pour préserver les cultures d'avoine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="importance-plante-saine" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 display-5 fw-bold">L'Importance d'une Plante Saine</h2>
+        <p class="text-center lead mb-5">
+            Un entretien soigné et régulier des plantes est essentiel pour prévenir les maladies et garantir leur développement optimal. Découvrez pourquoi il est crucial d'assurer la propreté et la santé de vos cultures.
+        </p>
+
+        <div class="row">
+            <!-- Introduction 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary fw-bold">Prévention des Maladies</h4>
+                        <p class="card-text">
+                            Maintenir vos plantes propres permet de réduire considérablement les risques d'infection par des champignons, bactéries ou insectes nuisibles. Une plante saine est mieux armée pour résister aux agressions extérieures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Introduction 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h4 class="card-title text-success fw-bold">Amélioration de la Croissance</h4>
+                        <p class="card-text">
+                            Une plante débarrassée de la poussière, des débris et des maladies bénéficie d'une meilleure absorption de la lumière et des nutriments. Cela favorise sa croissance et augmente son rendement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Introduction 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h4 class="card-title text-warning fw-bold">Soutien à l'Écologie</h4>
+                        <p class="card-text">
+                            Entretenir vos cultures contribue à un équilibre écologique sain. Des plantes propres réduisent l'utilisation excessive de traitements chimiques tout en soutenant la biodiversité locale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq">
+    <div class="mt-5">
+        <h3 class="text-center mb-4">Questions Fréquentes</h3>
+        <div class="accordion shadow-sm" id="faqAccordion">
+            <!-- Question 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        Quels sont les symptômes des maladies du blé ?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Les symptômes incluent des tâches jaunes ou brunes sur les feuilles, une croissance ralentie, et des épis décolorés.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        Comment prévenir les maladies des céréales ?
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Utilisez des semences traitées, pratiquez une rotation des cultures, et surveillez régulièrement les champs pour détecter les signes précoces.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        Quels outils technologiques peuvent aider à détecter ces maladies ?
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Des outils comme les drones, les capteurs IoT, et les logiciels de diagnostic basés sur l'IA permettent de surveiller et d'identifier rapidement les maladies dans les cultures.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+</section>
+<section id="statistique"> 
+<div class="row text-center stats mt-5">
+    <!-- Statistique 1 -->
+    <div class="col-md-4">
+        <div class="stat-item shadow-sm">
+            <i class="fas fa-disease text-primary mb-3"></i>
+            <h3 class="text-primary">+70%</h3>
+            <p>des maladies des céréales sont causées par des champignons.</p>
+        </div>
+    </div>
+    <!-- Statistique 2 -->
+    <div class="col-md-4">
+        <div class="stat-item shadow-sm">
+            <i class="fas fa-globe text-success mb-3"></i>
+            <h3 class="text-success">+50 Millions</h3>
+            <p>d'hectares de blé cultivés dans le monde.</p>
+        </div>
+    </div>
+    <!-- Statistique 3 -->
+    <div class="col-md-4">
+        <div class="stat-item shadow-sm">
+            <i class="fas fa-leaf text-warning mb-3"></i>
+            <h3 class="text-warning">-20%</h3>
+            <p>de pertes agricoles évitées grâce à des diagnostics précoces.</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<section id="galerie"> 
+        <div class="row mt-5">
+            <!-- Galerie du Blé -->
+            <div class="col-md-4 text-center gallery-item">
+                <h4 class="gallery-title">Galerie du Blé</h4>
+                <img src="Galerie/Blé/013-1600x1200-1-1600x900.jpg" alt="Blé 1" class="img-fluid gallery-img mb-3">
+                <img src="Galerie/Blé/1000_X_keep_ratio_651e2c9c13b26491e2c9c13b21d1e2v_.jpg" alt="Blé 2" class="img-fluid gallery-img mb-3">
+            </div>
+            <!-- Galerie de l'Orge -->
+            <div class="col-md-4 text-center gallery-item">
+                <h4 class="gallery-title">Galerie de l'Orge</h4>
+                <img src="Galerie/Orge/album-cereale3.jpg" alt="Orge 1" class="img-fluid gallery-img mb-3">
+                <img src="Galerie/Orge/Orge-dans-le-brassage-scaled.jpg" alt="Orge 2" class="img-fluid gallery-img mb-3">
+            </div>
+            <!-- Galerie de l'Avoine -->
+            <div class="col-md-4 text-center gallery-item">
+                <h4 class="gallery-title">Galerie de l'Avoine</h4>
+                <img src="Galerie/Avoine/avoine-bienfaits-nutrition-cereale.jpg" alt="Avoine 1" class="img-fluid gallery-img mb-3">
+                <img src="Galerie/Avoine/image.jpg" alt="Avoine 2" class="img-fluid gallery-img mb-3">
+            </div>
+        </div>
+    
+    
+ 
+    <!-- Footer -->
+    <footer class="py-3 text-center">
+        <p>&copy; 2024 Diagnostic des Maladies des Céréales. Tous droits réservés.</p>
+    </footer>
+    <script src="Plante.js"></script>
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery, Popper.js et Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Ajoute un effet de défilement doux
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
