@@ -1,4 +1,39 @@
-Diagnostic des Maladies des Céréales est une application web interactive dédiée à l’identification et la prévention des maladies touchant les cultures de blé, d’orge et d’avoine. 
-Le site propose des vidéos explicatives, un questionnaire intelligent permettant de diagnostiquer les organes affectés (grain, feuille, etc.), ainsi qu’un formulaire de contact pour 
-accompagner les utilisateurs. 
- 
+# 🌱 Projet Dev Web - Plantes et Céréales
+
+## 📁 Structure du Projet
+
+
+## 🚀 Pages Disponibles
+
+| Page | Description |
+|------|-------------|
+| **index.html** | Page d'accueil principale |
+| **Plante.html** | Galerie et informations sur les plantes |
+| **contact.html** | Formulaire de contact |
+| **questionnaire.html** | Sondage interactif |
+| **qui-nous-sommes.html** | Présentation de l'équipe |
+
+## 🌾 Céréales Présentées
+
+- **🌾 Avoine** - Bienfaits nutritionnels
+- **🌾 Blé** - Variétés et utilisations
+- **🌾 Orge** - Caractéristiques et brassage
+
+## 🛠️ Technologies Utilisées
+
+- **HTML5** - Structure des pages
+- **CSS3** - Styles et mise en page
+- **JavaScript** - Interactivité
+- **Git** - Gestion de version
+
+## 📦 Installation
+
+```bash
+# Cloner le repository
+git clone [url-du-repo]
+
+# Ouvrir le projet
+cd "Projet Dev Web"
+
+# Ouvrir la page principale
+open index.html
